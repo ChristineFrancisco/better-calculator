@@ -1,0 +1,58 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+main {
+  height: 500px;
+  width: 400px;
+  border: 2px solid black;
+}
+
+#first, #second, #third, #fourth, #fifth {
+  height: 100px;
+  width: 400px;
+  border: 2px solid black;
+}
+
+#first {
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  float: left;
+  height: 100px;
+  width: 99px;
+  border: 2px solid black;
+  padding: 40px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* main {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  border: 2px solid black;
+}
+
+#first, #second, #third, #fourth, #fifth {
+  border: 2px solid black;
+} */
